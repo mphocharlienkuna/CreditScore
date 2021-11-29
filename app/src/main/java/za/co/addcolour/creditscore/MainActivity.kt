@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupUI() {
+        mainViewModel.fetchCreditScore()
         mBinding.contentToolbar.imageViewBack.setOnClickListener { onBackPressed() }
         mBinding.contentError.btnRetry.setOnClickListener { mainViewModel.fetchCreditScore() }
     }

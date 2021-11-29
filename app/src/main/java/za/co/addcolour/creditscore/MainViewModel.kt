@@ -16,10 +16,6 @@ class MainViewModel(
     val creditScoreData: LiveData<Resource<CreditScoreData>>
         get() = _creditScoreData
 
-    init {
-        fetchCreditScore()
-    }
-
     fun fetchCreditScore() {
         viewModelScope.launch {
             _creditScoreData.postValue(Resource.loading(null))
