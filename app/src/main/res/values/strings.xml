@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Credit Score</string>
+
+    <!-- TOOLBAR -->
+    <string name="content_description_more">More</string>
+    <string name="content_description_back">Back</string>
+
+    <!-- BUTTONS -->
+    <string name="btn_retry">RETRY</string>
+    <string name="txt_credit_score">Your credit score is</string>
+</resources>

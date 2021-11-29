@@ -1,0 +1,14 @@
+<resources>
+    <!-- DEFAULT IMAGE HEIGHT -->
+    <dimen name="image_view">24dp</dimen>
+
+    <!-- MARGIN -->
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+
+    <!-- TEXT VIEW SIZE -->
+    <dimen name="text_view_size_18">18sp</dimen>
+    <dimen name="text_view_size_54">54sp</dimen>
+</resources>
